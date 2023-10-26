@@ -1,5 +1,3 @@
-#include "filehandler.h"
-
 bool FileInsertTargetlineBeforeSourceline(const char *filename, const char *matchSource, const char *targetSource)
 {
     FILE *file = fopen(filename, "r+");
